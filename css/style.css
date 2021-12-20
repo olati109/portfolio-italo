@@ -4,3 +4,89 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 100000;
+}
+header.sticky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+div .logo {
+  position: relative;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+div ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div ul li {
+  position: relative;
+  list-style: none;
+}
+
+div ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+img {
+  position: relative;
+  width: 55%;
+  max-width: 100%;
+  height: 67%;
+  max-height: 100%;
+  left: 44%;
+  top: 5px;
+}
+
+.title-header h1 {
+  font-size: 50px;
+  position: relative;
+  width: 40%;
+  top: 320px;
+  left: 100px;
+}
+
+.title-header p {
+  position: relative;
+  display: flex;
+  width: 40%;
+  top: 350px;
+  left: 100px;
+}
