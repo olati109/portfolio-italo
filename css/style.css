@@ -31,7 +31,7 @@ header.sticky {
 div .logo {
   position: relative;
   font-weight: 500;
-  color: #000;
+  color: #000b49;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ div ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: #000;
+  color: #000b49;
   letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
@@ -63,7 +63,7 @@ div ul li a {
 
 header.sticky .logo,
 header.sticky ul li a {
-  color: #000;
+  color: #000b49;
 }
 
 .img img {
@@ -192,4 +192,40 @@ main .div-projeto-3 {
   max-height: 100%;
   background-color: blue;
   border-radius: 10px;
+}
+
+/* sobre */
+
+.sobre-conteiner {
+  width: 100%;
+  height: 100vh;
+  background-color: #000b49;
+  margin-top: 160px;
+}
+
+.sobre {
+  position: relative;
+  width: 50%;
+  height: 30%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 10px 10px 0;
+}
+
+.sobre:nth-child(2) {
+  position: relative;
+  width: 50%;
+  height: 30%;
+  margin: 30px;
+  left: 47.3%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px 0 0 10px;
+}
+
+.sobre:nth-child(3) {
+  position: relative;
+  width: 50%;
+  height: 30%;
+  margin: 30px 0 0 0;
+  background-color: rgba(0, 0, 0, 0.1);
 }
