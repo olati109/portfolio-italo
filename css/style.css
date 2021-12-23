@@ -198,7 +198,7 @@ main .div-projeto-3 {
 
 .sobre-conteiner {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-color: #000b49;
   margin-top: 160px;
 }
@@ -228,4 +228,24 @@ main .div-projeto-3 {
   height: 30%;
   margin: 30px 0 0 0;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-conteiner {
+  width: 100%;
+  height: 30vh;
+  background-color: #041c32;
+}
+.footer-conteiner h3 {
+  width: 40%;
+  position: relative;
+  font-size: 20px;
+  top: 30px;
+  left: 480px;
+}
+
+.footer-conteiner a {
+  position: relative;
+  margin: 30px;
+  top: 70px;
+  left: 29%;
 }
