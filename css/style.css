@@ -78,18 +78,19 @@ header.sticky ul li a {
 
 .title-header h1 {
   font-size: 50px;
-  position: relative;
+  position: absolute;
   width: 40%;
-  top: 320px;
-  left: 100px;
+  top: 350px;
+  left: 150px;
+  color: #548cff;
 }
 
 .title-header p {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 40%;
-  top: 350px;
-  left: 100px;
+  top: 430px;
+  left: 150px;
 }
 
 main {
@@ -98,25 +99,25 @@ main {
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
-  margin-top: 50%;
+  margin-top: 60%;
   border: 5px solid transparent;
   border-radius: 10px;
 }
 
 .div-projeto img {
   position: relative;
-  width: 30vw;
-  height: 100vh;
-  left: 50%;
+  width: 25vw;
+  height: 80vh;
+  left: 55%;
   top: -50px;
   clip-path: inset(0 0 247px 0);
 }
 
 .div-projeto-2 img {
   position: relative;
-  width: 45%;
-  height: 100%;
-  left: 50%;
+  width: 25vw;
+  height: 52vh;
+  left: 55%;
   top: 32px;
   clip-path: inset(0 0 33px 0);
 }
@@ -125,33 +126,27 @@ main {
   position: relative;
   width: 50%;
   height: 70%;
-  left: 45%;
-  top: 36px;
-}
-
-main .div-projeto {
-  width: 100vw;
-  height: 400px;
-  max-width: 100%;
-  max-height: 100%;
-  background-color: blue;
-  border-radius: 10px;
+  left: 47%;
+  top: 0px;
 }
 
 main .div-projeto h2 {
   position: relative;
   top: 160px;
   left: 40px;
+  color: #fec63e;
 }
 main .div-projeto-2 h2 {
   position: relative;
   top: -230px;
   left: 40px;
+  color: #564fcc;
 }
 main .div-projeto-3 h2 {
   position: relative;
   top: 160px;
   left: 40px;
+  color: red;
 }
 
 main .div-projeto p {
@@ -159,6 +154,7 @@ main .div-projeto p {
   top: 200px;
   left: 40px;
   width: 167px;
+  color: #fff;
 }
 
 main .div-projeto-2 p {
@@ -166,12 +162,23 @@ main .div-projeto-2 p {
   top: -200px;
   left: 40px;
   width: 167px;
+  color: #fff;
 }
 main .div-projeto-3 p {
   position: relative;
   top: 200px;
   left: 40px;
   width: 167px;
+  color: #fff;
+}
+
+main .div-projeto {
+  width: 100vw;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  background: -webkit-linear-gradient(-35deg, #000 50%, #fec63e 50%);
+  border-radius: 10px;
 }
 
 main .div-projeto-2 {
@@ -180,18 +187,20 @@ main .div-projeto-2 {
   margin-top: 20px;
   max-width: 100%;
   max-height: 100%;
-  background-color: blue;
+  background: -webkit-linear-gradient(35deg, #000 50%, #564fcc 50%);
   border-radius: 10px;
 }
 
+/* left, #000 40%, #564fcc 60%;
+-110grad */
 main .div-projeto-3 {
   width: 100%;
   height: 400px;
   margin-top: 20px;
   max-width: 100%;
   max-height: 100%;
-  background-color: blue;
   border-radius: 10px;
+  background: -webkit-linear-gradient(left, black 49.8%, red 50%);
 }
 
 /* sobre */
@@ -199,7 +208,7 @@ main .div-projeto-3 {
 .sobre-conteiner {
   width: 100%;
   height: 120vh;
-  background-color: #000b49;
+  background-color: #fff;
   margin-top: 160px;
 }
 
@@ -212,13 +221,23 @@ main .div-projeto-3 {
   border-radius: 0 10px 10px 0;
 }
 
+.sobre img {
+  position: absolute;
+  width: 45%;
+  max-width: 100%;
+  height: 60%;
+  max-height: 100%;
+  left: 49%;
+  top: 25%;
+}
+
 .sobre:nth-child(2) {
   position: relative;
   width: 50%;
   height: 30%;
   margin: 30px;
-  left: 47.3%;
-  background-color: rgba(0, 0, 0, 0.1);
+  left: 47.9%;
+  background-color: rgba(0, 0, 0, 0.18);
   border-radius: 10px 0 0 10px;
 }
 
@@ -230,22 +249,41 @@ main .div-projeto-3 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.img-sobre {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 650px;
+}
+
+.img-sobre2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 950px;
+}
+/* footer */
+
 .footer-conteiner {
   width: 100%;
   height: 30vh;
-  background-color: #041c32;
+  background-color: #d98c00;
 }
 .footer-conteiner h3 {
-  width: 40%;
+  width: 50%;
   position: relative;
-  font-size: 20px;
+  font-size: 26px;
   top: 30px;
-  left: 480px;
+  left: 43%;
 }
 
 .footer-conteiner a {
   position: relative;
   margin: 30px;
+  font-size: 20px;
   top: 70px;
-  left: 29%;
+  left: 35%;
+  text-decoration: none;
 }
