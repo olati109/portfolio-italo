@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,12 @@ nav {
   padding: 40px 100px;
   z-index: 100000;
 }
+h1,
+h2,
+h3,
+p {
+  font-family: 'Poppins', sans-serif;
+}
 
 header.sticky {
   padding: 5px 100px;
@@ -31,12 +39,13 @@ header.sticky {
 div .logo {
   position: relative;
   font-weight: 500;
-  color: #000b49;
+  color: #000;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.6s;
+  font-family: 'Poppins', sans-serif;
 }
 
 div ul {
@@ -55,10 +64,11 @@ div ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: #000b49;
+  color: #000;
   letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
+  font-size: 22px;
 }
 
 header.sticky .logo,
@@ -81,8 +91,8 @@ header.sticky ul li a {
   position: absolute;
   width: 40%;
   top: 350px;
-  left: 150px;
-  color: #548cff;
+  left: 145px;
+  color: #fec63e;
 }
 
 .title-header p {
@@ -109,7 +119,7 @@ main {
   width: 25vw;
   height: 80vh;
   left: 55%;
-  top: -50px;
+  top: -154px;
   clip-path: inset(0 0 247px 0);
 }
 
@@ -127,48 +137,48 @@ main {
   width: 50%;
   height: 70%;
   left: 47%;
-  top: 0px;
+  top: -75px;
 }
 
 main .div-projeto h2 {
   position: relative;
-  top: 160px;
+  top: 120px;
   left: 40px;
   color: #fec63e;
 }
 main .div-projeto-2 h2 {
   position: relative;
-  top: -230px;
+  top: -300px;
   left: 40px;
   color: #564fcc;
 }
 main .div-projeto-3 h2 {
   position: relative;
-  top: 160px;
+  top: 100px;
   left: 40px;
   color: red;
 }
 
 main .div-projeto p {
   position: relative;
-  top: 200px;
+  top: 145px;
   left: 40px;
-  width: 167px;
+  width: 250px;
   color: #fff;
 }
 
 main .div-projeto-2 p {
   position: relative;
-  top: -200px;
+  top: -270px;
   left: 40px;
-  width: 167px;
+  width: 300px;
   color: #fff;
 }
 main .div-projeto-3 p {
   position: relative;
-  top: 200px;
+  top: 130px;
   left: 40px;
-  width: 167px;
+  width: 300px;
   color: #fff;
 }
 
@@ -191,8 +201,6 @@ main .div-projeto-2 {
   border-radius: 10px;
 }
 
-/* left, #000 40%, #564fcc 60%;
--110grad */
 main .div-projeto-3 {
   width: 100%;
   height: 400px;
@@ -217,8 +225,26 @@ main .div-projeto-3 {
   width: 50%;
   height: 30%;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #564fcc;
   border-radius: 0 10px 10px 0;
+}
+
+.sobre h2 {
+  position: relative;
+  width: 50%;
+  top: 35px;
+  left: 22.5%;
+  color: #000b49;
+}
+
+.sobre p {
+  position: absolute;
+  width: 65%;
+  height: -10%;
+  margin: 20px;
+  text-align: center;
+  top: 60px;
+  left: 8%;
 }
 
 .sobre img {
@@ -228,7 +254,7 @@ main .div-projeto-3 {
   height: 60%;
   max-height: 100%;
   left: 49%;
-  top: 25%;
+  top: 5%;
 }
 
 .sobre:nth-child(2) {
@@ -237,7 +263,7 @@ main .div-projeto-3 {
   height: 30%;
   margin: 30px;
   left: 47.9%;
-  background-color: rgba(0, 0, 0, 0.18);
+  background-color: #f90716;
   border-radius: 10px 0 0 10px;
 }
 
@@ -246,7 +272,7 @@ main .div-projeto-3 {
   width: 50%;
   height: 30%;
   margin: 30px 0 0 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #fec63e;
 }
 
 .img-sobre {
@@ -269,7 +295,7 @@ main .div-projeto-3 {
 .footer-conteiner {
   width: 100%;
   height: 30vh;
-  background-color: #d98c00;
+  background-color: #fec63e;
 }
 .footer-conteiner h3 {
   width: 50%;
@@ -287,3 +313,27 @@ main .div-projeto-3 {
   left: 35%;
   text-decoration: none;
 }
+
+/* anima ao scroll  */
+/* 
+[data-anime] {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+[data-anime='left'] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime='right'] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime='top'] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+} */
