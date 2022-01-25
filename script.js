@@ -29,7 +29,7 @@ function scrollToIdOnClick(event) {
   const to = document.querySelector(id).offsetTop;
 
   window.scroll({
-    top: to - 80,
+    top: to - 100,
     behavior: 'smooth',
   });
 }
